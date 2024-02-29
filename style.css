@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Backgroundscreen{
+    background: radial-gradient(#fff,#ffd6d6);   
+}
+.frontscreen{
+    max-width:1300px;
+    margin: auto;
+    padding-left: 25;
+    padding-right: 25;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 50%;
+}
+.tab{
+    flex: 1;
+    text-align: right;
+}
+.tab ul{
+    display: inline-block;
+    text-align: none;
+}
+.tab ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.mainsection{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.content{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.content h1{
+    font-size: 90px;
+    line-height: 60px;
+    margin:25px 0;
+}
+.content p{
+    font-size: 15px;
+    line-height: 60px;
+    margin:25px 0;
+}
+.photo{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.photo img{
+    max-width: 100%;
+    padding: 50px 0;
+
+}
+.btn{
+    display: inline-block;
+    background: #FF523B;
+    Color:#fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #568484;
+}
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+.categories{
+    margin: 70px 0;
+    display: flex;
+}
+.row{
+    display: inline-block;
+    position: relative;
+}
+.row.col-1{
+    width: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
